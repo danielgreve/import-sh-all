@@ -39,3 +39,4 @@ Otherwise, `sh` and Hy make scripting fun and easy.
 * `sh` [documentation](https://amoffat.github.io/sh/)
 * [Inspiration for this project](https://twitter.com/paultag/status/314925996442796032)
 * Hy [documentation](http://docs.hylang.org/en/latest/index.html)
+* [scsh](https://github.com/scheme/scsh)
