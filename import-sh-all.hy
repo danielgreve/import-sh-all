@@ -24,11 +24,6 @@
   [executable executables]
   (not (in "." executable))))
 
-(setv unresolvable_executables (list-comp
-  executable
-  [executable executables]
-  (in "." executable)))
-
 (for [executable resolvable_executables]
   (assoc (locals) executable (getattr sh executable)))
 
